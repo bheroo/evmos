@@ -1,0 +1,24 @@
+.btn {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .Layout_navBar__ICOIs {
+      position: relative;
+      left: 500px;
+      top: 100px;  
+    }
+    .Layout_logo__nhNRc {
+        position: relative;
+      left: 500px;
+      top: 100px; 
+    }
+    .btn {
+        display: contents;
+        float: right;
+        text-align: right;
+        justify-content: right;
+    }
+}
+    
+
